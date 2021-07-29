@@ -1,0 +1,89 @@
+body {
+  padding: 0 0 0 5px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  padding-bottom: 5px;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+.landscape {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.portrait {
+  display: block;
+  height: 100vh;
+  width: auto;
+  margin: 0 auto;
+  padding: 0;
+}
+
+footer p {
+  padding-right: 5px;
+}
+
+.paintingInfo {
+  max-width: 600px;
+  text-align: justify;
+}
+
+.paintingInfo a {
+  text-decoration: none;
+  font-weight: normal;
+  color: var(--color1);
+}
+
+  .paintingInfo a:hover {
+    text-decoration: underline;
+  }
+
+  .paintingInfo a:visited {
+    color: var(--color1);
+  }
+
+
+.fullSizeLink {
+  text-decoration: none;
+  color: var(--color1);
+  font-weight: bold;
+}
+
+  .fullSizeLink:hover {
+    text-decoration: underline;
+  }
+
+  .fullSizeLink:visited {
+    color: var(--color1);
+  }
+
+.newWindowIcon {
+  height: 1rem;
+  width: auto;
+}
+
+
+/*  Mobile styles  -----------------------------------*/
+
+@media only screen and (max-width: 700px) {
+
+  .paintingInfo {
+    padding: 10px 8px;
+  }
+
+  .portrait {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
