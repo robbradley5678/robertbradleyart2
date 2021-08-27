@@ -213,6 +213,7 @@ nav a {
 .photoContainer {
   display: inline-block;
   position: relative;
+  background-color: lightgrey;
   flex-basis: 30%;
   flex-grow: 1;
   min-width: 200px;
