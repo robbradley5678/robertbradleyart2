@@ -2,8 +2,10 @@ const header = document.getElementsByTagName('header')[0];
 header.innerHTML =  `
 
   <div id="titleWrapper">
-    <h1>Robert Bradley</h1>
-    <h2>Fine Art</h2>
+    <a href="./index.html">
+      <h1>Robert Bradley</h1>
+      <h2>Fine Art</h2>
+    </a>  
   </div>
 
   <nav>
