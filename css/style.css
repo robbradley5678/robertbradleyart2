@@ -444,6 +444,12 @@ footer a {
       transform: translatey(-10px);
     }
 
+    #mobileHeader a,
+    #mobileHeader a:hover,
+    #mobileHeader a:active,
+    #mobileHeader a:visited {
+      text-decoration: none;
+    }
 
   button {
     padding: 18px 48px;
