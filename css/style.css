@@ -445,6 +445,10 @@ footer a {
       transform: translatey(-10px);
     }
 
+  .photoContainer {
+    max-width: 90%;
+  }
+
   button {
     padding: 18px 48px;
     font-size: 1.5rem;
